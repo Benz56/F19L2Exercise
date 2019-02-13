@@ -58,7 +58,7 @@ public class FXMLDocumentController implements Initializable {
                 while (scanner.hasNextLine()) {
                     textarea.appendText(scanner.nextLine() + (scanner.hasNextLine() ? "\n" : ""));
                 }
-            } catch (IOException ex) {
+            } catch (FileNotFoundException ex) {
                 textarea.setText("Can't open file!");
             }
         }
