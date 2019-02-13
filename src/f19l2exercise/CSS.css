@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-11-2018, 12:15:55
+    Author     : Benjamin Staugaard | Benz56
+*/
+
+.root {
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(43, 43, 43);
+    -fx-background: rgb(63, 63, 63);
+}
+
+.text-area {
+    -fx-text-fill: white;
+}
+
+.text-input {
+    -fx-text-fill: white;
+}
